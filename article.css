@@ -1,0 +1,53 @@
+/*媒体查询字号标准*/
+@media only screen and (max-width: 320px){
+	html, body{
+		font-size: 12px;
+	}
+}
+
+@media only screen and (min-width: 321px) and (max-width: 375px){
+	html, body{
+		font-size: 14px;
+	}
+}
+
+@media only screen and (min-width: 376px) and (max-width: 414px){
+	html, body{
+		font-size: 16px;
+	}
+}
+
+@media only screen and (min-width: 415px){
+	html, body{
+		font-size: 18px;
+	}
+}
+
+
+
+/*最外层容器*/
+.article_outer{
+	padding: 1rem;
+}
+
+/*文章标题*/
+.article_title{
+	margin-bottom: 0.5rem;
+	font-size: 1.429rem;
+	font-weight: bold;
+	color: #333;
+}
+
+/*发布时间*/
+.article_publishTime{
+	color: #7e7e81;
+	font-size: 1rem;
+	margin-bottom: 1rem;
+}
+
+/*文章正文*/
+.article_centent{
+	line-height: 1.5rem;
+	font-size: 1.143rem;
+	color: #333;
+}
